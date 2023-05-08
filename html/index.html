@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стена памяти</title>
+  <link rel="stylesheet" href="./../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container-wrap">
+      <div class="header__sponsors">
+        <div class="header__item"><img src="./../img/header1.png"></div>
+        <div class="header__item"><img src="./../img/header2.png"></div>
+        <div class="header__item"><img src="./../img/header3.png"></div>
+      </div>
+      <div class="header__item header__logo"><img src="./../img/logo.svg"></div>
+    </div>
+  </header>
+  <section class="hero">
+    <div class="hero__container container-wrap">
+      <strong class="hero__subtitle">Всероссийская акция</strong>
+      <h1 class="hero__title">стена памяти</h1>
+      <p class="hero__text">Впиши имя своего героя в историю!</p>
+      <a class="hero__link" href="#">Добавить Героя</a>
+    </div>
+  </section>
+  <section class="about">
+    <div class="about__container container-wrap">
+      <div class="about__date">
+        <strong class="about__title">1418 дней</strong>
+        <p class="about__subtitle">Длилась одна из самых тяжёлых и кровопролитных войн в истории нашей страны. </p>
+      </div>
+      <div class="about__text-wrapper">
+        <p class="about__text">
+          Каждый день состоял из бесконечного множества подвигов, совершённых на фронте и в тылу, в том числе подвигов горьковчан, из которых, как из кирпичиков, складывался величественный образ Победы.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="project">
+    <div class="project__container container-wrap">
+      <p class="project__text">Нижегородское региональное отделение Всероссийского общественного движения «Волонтёры Победы» совместно с Правительством Нижегородской области и региональным отделением партии «Единая Россия» представляет <strong>информационный ресурс открытого доступа, наполняемый пользователями.</strong></p>
+      <h2 class="project__title">Каждый пользователь может добавить фотографию своего героя на общую «Стену памяти» героев нашей области</h2>
+    </div>
+  </section>
+  <section class="museum">
+    <div class="museum__container container-wrap">
+      <div class="museum__text-wrapper"><p class="museum__text">После Дня Победы все собранные материалы и фотографии будут использованы для составления <strong>постоянно действующей инсталляции на территории Нижегородского Кремля</strong>, посвящённой героям Великой Отечественной войны, а также переданы в архивы и музеи, в том числе, <strong>во Всероссийский исторический депозитарий «Лица Победы»</strong> (Музей Победы).</p></div>
+      <img class="museum__img" src="./../img/museum.png" alt="">
+    </div>
+  </section>
+  <section class="form">
+    <form action="" class="form-wrapper">
+      <div class="form__container form-top container-wrap">
+        <h3 class="form__title">добавить героя</h3>
+        <h4 class="form__subtitle">Ваши данные</h4>
+        <div class="form__your-data">
+          <div class="form__input-wrapper">
+            <strong class="form__input-title">Фамилия</strong>
+            <input class="form__input" type="text">
+          </div>
+          <div class="form__input-wrapper">
+            <strong class="form__input-title">Имя</strong>
+            <input class="form__input" type="text">
+          </div>
+          <div class="form__input-wrapper">
+            <strong class="form__input-title">Отчество</strong>
+            <input class="form__input" type="text">
+          </div>
+          <div class="form__input-wrapper">
+            <strong class="form__input-title">Номер телефона</strong>
+            <input class="form__input" type="text">
+          </div>
+        </div>
+      </div>
+      <div class="form__person">
+        <div class="form__person-wrapper container-wrap">
+          <h4 class="form__subtitle">Данные героя</h4>
+          <ul class="form__list">
+            <li class="form__item">Для каждого человека потребуется заполнить индивидуальную карточку. Перед началом работы с биографией вашего родственника, уточните его/её фамилию, имя, отчество, годы жизни и место рождения.</li>
+            <li class="form__item">Отсканируйте фотографию в формате jpeg.</li>
+            <li class="form__item">Количество родственников, истории которых вы можете внести на «Стену памяти», неограниченно.</li>
+          </ul>
+          <div class="form__hero-data">
+            <div class="form__hero-name">
+              <div class="form__input-wrapper">
+                <strong class="form__input-title">Фамилия</strong>
+                <input class="form__input" type="text">
+              </div>
+              <div class="form__input-wrapper">
+                <strong class="form__input-title">Имя</strong>
+                <input class="form__input" type="text">
+              </div>
+              <div class="form__input-wrapper">
+                <strong class="form__input-title">Отчество (необязательно)</strong>
+                <input class="form__input" type="text">
+              </div>
+            </div>
+            <div class="form__hero-others">
+              <div class="form__input-wrapper">
+                <strong class="form__input-title">Воинское звание</strong>
+                <input class="form__input" type="text">
+              </div>
+              <div class="form__input-wrapper">
+                <strong class="form__input-title">Годы жизни</strong>
+                <input class="form__input" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="form__add">
+            <div class="form__requirements">
+              <h4 class="form__requirements-title">Требования к фотографии</h4>
+              <ul class="form__requirements-list">
+                <li class="form__requirements-item">Изображение должно быть портретным, вертикальным, на нем должен быть изображён 1 человек.</li>
+                <li class="form__requirements-item">Максимальный размер фото — 8 МБ.</li>
+                <li class="form__requirements-item">Разрешённые типы файлов: .jpg, .png, .gif.</li>
+                <li class="form__requirements-item"><strong>НЕ ПРИНИМАЮТСЯ:</strong> фотографии плохого качества (плохо видно лицо / непонятно, кто на фотографии / видны только пиксели и невозможно ничего разглядеть).</li>
+              </ul>
+            </div>
+            <label class="form__add-button" for="addImg">Прикрепить фотографию</label>
+            <input class="form__add-img" id="addImg" type="file" name="" id="" title="">
+          </div>
+          <div class="form__privacy-police">
+            <input class="form__privacy-police-checkbox" type="checkbox">
+            <p class="form__privacy-police-text">Я согласен с политикой обработки персональных данных</p>
+          </div>
+          <button class="form__button" type="submit">Добавить на сайт</button>
+        </div>
+      </div>
+    </form>
+  </section>
+</body>
+</html>
